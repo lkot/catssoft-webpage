@@ -18,4 +18,17 @@ export const SliderData = [
     image:
       "https://inter-logos.com/wp-content/uploads/2017/10/RocheDiagnostics.jpg",
   },
+  {
+    image:
+      "https://www.drugdeliverybusiness.com/wp-content/uploads/2017/06/ortho-clinical-diagnostics-large.png",
+  },
+  {
+    image: "https://allmed.com.pl/wp-content/uploads/2019/06/allmed-logo.png",
+  },
+  {
+    image: "https://medspro.pl/wp-content/uploads/2021/01/m_logo_21.png",
+  },
+  {
+    image: "https://macopharma.pl/wp-content/themes/maco/images/logo.svg",
+  },
 ];
