@@ -1,0 +1,152 @@
+{
+    "AboutUsNavbar": {
+        "1": "O Nas"
+    },
+    "ServicesNavbar": {
+        "1": "Usługi"
+    },
+    "ClientsNavbar": {
+        "1": "Klienci"
+    },
+    "ContactNavbar": {
+        "1": "Kontakt"
+    },
+
+
+
+    "HeroSectionH1": {
+        "1": "Rozwiązania IT zwinne niczym kot."
+    },
+    "HeroSectionP1": {
+        "1": "Chcesz dowiedzieć się więcej?"
+    },
+    "ContactHeroBtn": {
+        "1": "Napisz do nas"
+    },
+
+
+    
+    "AboutTopLine":{
+        "1": "O Nas"
+    },
+    "AboutHeadline":{
+        "1": "Rozwiązania zarówno dla rozwijających się, jak i dużych firm."
+    },
+    "AboutDescription":{
+        "1": "Zespół catsSoft projektuje i wdraża zarówno małe aplikacje, jak i wszechstronne rozproszone systemy opieki zdrowotnej."
+    },
+    "AboutBtn":{
+        "1": "Napisz do Nas"
+    },
+
+
+
+    "ClientsTopLine":{
+        "1": "Klienci, którzy nam zaufali"
+    },
+    "ClientsHeadline":{
+        "1": "Firmy, które zaufały naszym usługom."
+    },
+    "ClientsDescription":{
+        "1": "Przez lata udało nam się dostarczyć rozwiązania dla wielu klientów. Współpraca z polskimi i międzynarodowymi firmami pomogła nam w dostarczaniu najlepszych usług. Sprawiamy, że firmy rozwijają się i wykorzystujemy ich potencjał!"
+    },
+    "ClientsBtn":{
+        "1": "Dowiedz się więcej"
+    },
+
+
+
+
+    "ServicesH1": {
+        "1": "Nasze Usługi."
+    },
+    "ServicesWebDevH2":{
+        "1": "Rozwiązania Webowe."
+    },
+    "ServicesWebDevP":{
+        "1": "Nasi specjaliści opracowują wysokiej jakości rozwiązania programowe z kocią zwinnością."
+    },
+
+    "ServicesITConsultingH2":{
+        "1": "Konsulting IT."
+    },
+    "ServicesITConsultingP":{
+        "1": "Z doświadczenia wiemy, jakie są Twoje wyzwania i jak najlepiej świadczyć pełen zakres specjalistycznych usług IT."
+    },
+
+    "ServicesDatabaseDevH2":{
+        "1": "Rozwój Baz Danych."
+    },
+    "ServicesDatabaseDevP":{
+        "1": "Nasza firma specjalizuje się w tworzeniu baz danych, opierając się na solidnej wiedzy o domenach."
+    },
+
+
+
+    "ClientsSliderH1":{
+        "1": "Nasi Klienci."
+    },
+
+
+
+    "EmailFormH1": {
+        "1": "Kontakt."
+    },
+    "EmailFormH2":{
+        "1": "Skontaktuj się z nami już dziś!"
+    },
+    "EmailFormTextH2":{
+        "1": "Jeśli już zdecydowałeś, że chcesz skorzystać z naszych usług - napisz do nas! Z przyjemnością odpowiemy na wszystkie Twoje pytania."
+    },
+
+
+    "EmailFormNameLabel": {
+        "1": "Imię lub nazwa firmy"
+    },
+    "EmailFormNamePlaceholder": {
+        "1": "Wprowadź imię lub nazwę firmy"
+    },
+    "EmailFormEmailLabel": {
+        "1": "Email"
+    },
+    "EmailFormEmailPlaceholder": {
+        "1": "Wprowadź swój adres email"
+    },    
+    "EmailFormSubjectLabel": {
+        "1": "Temat"
+    },
+    "EmailFormSubjectPlaceholder": {
+        "1": "Wprowadź temat zapytania"
+    },
+    "EmailFormMessageLabel": {
+        "1": "Wiadomość"
+    },
+    "EmailFormMessagePlaceholder": {
+        "1": "Wprowadź treść wiadomości"
+    },
+
+    "EmailFormBtn": {
+        "1": "Wyślij"
+    },
+
+
+
+    "EmailFormNameValidation": {
+        "1": "IMIE JEST ZLE"
+    },
+    "EmailFormEmailValidation": {
+        "1": "NAZWA EMAILA JEST ZLA"
+    },
+    "EmailFormSubjectValidation": {
+        "1": "TEMAT JEST ZLY"
+    },
+    "EmailFormMessageValidation": {
+        "1": "TRESC WIADOMOSCI JEST ZLA"
+    },
+
+
+
+    "FooterCopyrights": {
+        "1": "Wszystkie prawa zastrzeżone."
+    }
+}

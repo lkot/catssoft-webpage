@@ -1,0 +1,150 @@
+{
+    "AboutUsNavbar": {
+        "1": "About Us"
+    },
+    "ServicesNavbar": {
+        "1": "Services"
+    },
+    "ClientsNavbar": {
+        "1": "Clients"
+    },
+    "ContactNavbar": {
+        "1": "Contact"
+    },
+
+
+
+    "HeroSectionH1": {
+        "1": "Catlike agile It solutions."
+    },
+    "HeroSectionP1": {
+        "1": "Want to know more? Contact us now!"
+    },
+    "ContactHeroBtn": {
+        "1": "Contact Us"
+    },
+
+
+
+    "AboutTopLine":{
+        "1": "About Us"
+    },
+    "AboutHeadline":{
+        "1": "Solutions for both emerging & large companies."
+    },
+    "AboutDescription":{
+        "1": "The catsSoft team designs and implements both small applications as well as versatile healthcare distributed systems."
+    },
+    "AboutBtn":{
+        "1": "Contact Us"
+    },
+
+
+
+    "ClientsTopLine":{
+        "1": "Our Clients"
+    },
+    "ClientsHeadline":{
+        "1": "Companies who trusted our services."
+    },
+    "ClientsDescription":{
+        "1": "Throughtout years we've managed to provide solutions to number of clients. Co-operating with Polish and multinational firms helped us to deliver the best services possible. We make the companies thrive & embrace their potential!."
+    },
+    "ClientsBtn":{
+        "1": "Learn more"
+    },
+
+
+
+    "ServicesH1": {
+        "1": "catsSoft Services."
+    },
+    "ServicesWebDevH2":{
+        "1": "Web Development."
+    },
+    "ServicesWebDevP":{
+        "1": "Our specialists develop high-quality software solutions with catlike agility."
+    },
+
+    "ServicesITConsultingH2":{
+        "1": "IT Consulting."
+    },
+    "ServicesITConsultingP":{
+        "1": "We know from experience what your challenges are and how best to deliver a full range of specialized IT services."
+    },
+
+    "ServicesDatabaseDevH2":{
+        "1": "Database Development."
+    },
+    "ServicesDatabaseDevP":{
+        "1": "Our company is specializing in database development relying on solid domain expertise."
+    },
+
+
+
+    "ClientsSliderH1":{
+        "1": "catsSoft Clients."
+    },
+
+
+
+    "EmailFormH1": {
+        "1": "Contact."
+    },
+    "EmailFormH2":{
+        "1": "Get in touch with us today!"
+    },
+    "EmailFormTextH2":{
+        "1": "If you've already decided that you want to embrace our services - just write to us! We will be more than happy to answer all of your questions."
+    },
+
+
+    "EmailFormNameLabel": {
+        "1": "Name"
+    },
+    "EmailFormNamePlaceholder": {
+        "1": "Enter your name"
+    },
+    "EmailFormEmailLabel": {
+        "1": "Email"
+    },
+    "EmailFormEmailPlaceholder": {
+        "1": "Enter your email"
+    },    
+    "EmailFormSubjectLabel": {
+        "1": "Subject"
+    },
+    "EmailFormSubjectPlaceholder": {
+        "1": "Enter the subject of enquiry"
+    },
+    "EmailFormMessageLabel": {
+        "1": "Message"
+    },
+    "EmailFormMessagePlaceholder": {
+        "1": "Enter the message"
+    },
+
+    "EmailFormBtn": {
+        "1": "Send"
+    },
+
+
+
+    "EmailFormNameValidation": {
+        "1": "Email NAME is bad"
+    },
+    "EmailFormEmailValidation": {
+        "1": "Email EMAIL NAME is bad"
+    },
+    "EmailFormSubjectValidation": {
+        "1": "Email SUBJECT is bad"
+    },
+    "EmailFormMessageValidation": {
+        "1": "Email MESSAGE is bad"
+    },
+
+
+    "FooterCopyrights": {
+        "1": "All rights reserved."
+    }
+}

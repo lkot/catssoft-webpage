@@ -1,5 +1,4 @@
 // File with all Navbar components
-
 import styled from "styled-components";
 import { Link as LinkRouter } from "react-router-dom";
 import { Link as LinkScroll } from "react-scroll";
@@ -31,8 +30,9 @@ export const NavbarContainer = styled.div`
   height: 80px;
   z-index: 1;
   width: 100%;
-  padding: 0 24px;
+  /* padding: 0 24px; */
   max-width: 1100px;
+  /* padding: 0 20rem 0 0rem; */
 `;
 //a link from REACT ROUTER & I used REACT SCROLL
 export const NavLogo = styled(LinkRouter)`
@@ -141,8 +141,37 @@ export const NavBtnLink = styled(LinkRouter)`
   }
 `;
 
-// export const CatIcon = styled(GiHollowCat)`
 export const CatIcon = styled(GiCat)`
   margin-right: 4px;
   font-size: 2rem;
+`;
+
+// export const FlagContainer = styled.ul`
+//   display: flex;
+//   align-items: center;
+//   list-style: none;
+//   text-align: center;
+//   /* margin-right: -22px; */
+// `;
+
+export const FlagContainer = styled.div`
+  display: flex;
+  /* padding: 0 0 0 4rem; */
+  padding-left: 3rem;
+  text-align: center;
+  align-items: center;
+`;
+
+export const FlagImg = styled.img`
+  margin-right: 4px;
+
+  height: 15%;
+  width: 15%;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.2);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+  }
 `;

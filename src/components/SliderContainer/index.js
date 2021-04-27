@@ -12,12 +12,14 @@ import {
   SliderH1,
   SlideBtnWrap,
 } from "./SliderElements";
-import { Button } from "../ButtonElements";
+// import { Button } from "../ButtonElements";
+import { useTranslation } from "react-i18next";
 
 const ImageSlider = ({ slides }) => {
   const [current, setCurrent] = useState(0);
   const length = slides.length;
   const timeout = useRef(null);
+  const { t } = useTranslation();
 
   //Automated slider. Passing current and length for the dependencies
   useEffect(() => {
@@ -49,7 +51,7 @@ const ImageSlider = ({ slides }) => {
 
   return (
     <SliderContainer id="clientsSlider">
-      <SliderH1>catsSoft Clients.</SliderH1>
+      <SliderH1>{t("ClientsSliderH1.1")}</SliderH1>
       <SliderWrapper>
         <SlideRightArrow
           className="right-arrow"

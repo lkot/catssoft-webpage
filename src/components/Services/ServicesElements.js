@@ -122,3 +122,26 @@ export const ServicesBtnWrap = styled.div`
   align-items: center;
   justify-content: flex-start;
 `;
+
+//Background image.
+export const ServicesBackground = styled.div`
+  /* background-image: url(img-code.svg); */
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+`;
+
+export const ImgBackground = styled.video`
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  background: 232a34;
+  opacity: 70%;
+  /* filter: brightness(70%); */
+`;

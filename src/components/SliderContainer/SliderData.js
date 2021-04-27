@@ -31,4 +31,11 @@ export const SliderData = [
   {
     image: "https://macopharma.pl/wp-content/themes/maco/images/logo.svg",
   },
+  {
+    image: "https://www.szkklm.si/assets/images/upload/Diahem.jpg",
+  },
+  {
+    image:
+      "http://www.powiatzary.pl/system/obj/1319_RCKiK_Zielona_Gora_-_logo.jpg",
+  },
 ];

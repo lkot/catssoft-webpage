@@ -6,6 +6,16 @@
 //This is the fill where I can pass in all these different values
 //and update the design the website without having to hard code in these properties.
 
+// import "../../i18n";
+import { useTranslation } from "react-i18next";
+
+// Language change functions.
+// const { t, i18n } = useTranslation();
+
+// function handleLangChange(lang) {
+//   i18n.changeLanguage(lang);
+// }
+
 export const homeObjOne = {
   id: "about",
   //lightBackground with 'false' value will set up a default dark background colors
@@ -27,6 +37,8 @@ export const homeObjOne = {
   darkText: false,
 
   showClients: false,
+
+  firstOne: true,
 };
 
 export const homeObjTwo = {
@@ -48,6 +60,8 @@ export const homeObjTwo = {
   darkText: false,
 
   showClients: true,
+
+  firstOne: false,
 };
 
 export const homeObjThree = {

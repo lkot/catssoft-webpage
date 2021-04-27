@@ -3,72 +3,84 @@ import validate from "./validateInfo";
 import useForm from "./useForm";
 import "./Form.css";
 
+import { useTranslation } from "react-i18next";
+
 const FormSendEmail = ({ submitForm }) => {
   const { handleChange, handleSubmit, values, errors } = useForm(
     submitForm,
     validate
   );
 
+  const { t } = useTranslation();
+
   return (
     <div className="form-content-right">
       <form onSubmit={handleSubmit} className="form" noValidate>
-        <h1>Contact.</h1>
-        <h2>Get in touch with us today!</h2>
-        <h2>
-          If you've already decided that you want to embrace our services - just
-          write to us! We will be more than happy to answer all of your
-          questions.
-        </h2>
+        <h1>{t("EmailFormH1.1")}</h1>
+        <h2>{t("EmailFormH2.1")}</h2>
+        <h2>{t("EmailFormTextH2.1")}</h2>
         <div className="form-inputs">
-          <label className="form-label">Name</label>
+          <label className="form-label">{t("EmailFormNameLabel.1")}</label>
           <input
             className="form-input"
             type="text"
             name="username"
-            placeholder="Enter your name"
+            placeholder={t("EmailFormNamePlaceholder.1")}
             value={values.username}
             onChange={handleChange}
           />
-          {errors.username && <p>{errors.username}</p>}
+          {/* {errors.username && <p>{errors.username}</p>} */}
+          {/* {errors.username && <p>{errors.username}</p>} */}
+          {/* {errors.username && <p>{t("EmailFormNameValidation.1")}</p>} */}
+          {errors.username && <p>{t("EmailFormNameValidation.1")}</p>}
         </div>
         <div className="form-inputs">
-          <label className="form-label">Email</label>
+          <label className="form-label">{t("EmailFormEmailLabel.1")}</label>
           <input
             className="form-input"
             type="email"
             name="email"
-            placeholder="Enter your email address"
+            placeholder={t("EmailFormEmailPlaceholder.1")}
             value={values.email}
             onChange={handleChange}
           />
-          {errors.email && <p>{errors.email}</p>}
+          {/* {errors.email && <p>{errors.email}</p>} */}
+          {/* {errors.email && <p>{errors.email}</p>} */}
+          {/* {errors.email && <p>{t("EmailFormEmailValidation.1")}</p>} */}
+          {errors.email && <p>{t("EmailFormEmailValidation.1")}</p>}
         </div>
         <div className="form-inputs">
-          <label className="form-label">Subject</label>
+          <label className="form-label">{t("EmailFormSubjectLabel.1")}</label>
           <input
             className="form-input"
             type="text"
             name="subject"
-            placeholder="Enter your subject of enquiry"
+            placeholder={t("EmailFormSubjectPlaceholder.1")}
             value={values.subject}
             onChange={handleChange}
           />
-          {errors.subject && <p>{errors.subject}</p>}
+          {/* {errors.subject && <p>{errors.subject}</p>} */}
+          {/* {errors.subject && <p>{errors.subject}</p>} */}
+          {/* {errors.subject && <p>{t("EmailFormSubjectValidation.1")}</p>} */}
+          {errors.subject && <p>{t("EmailFormSubjectValidation.1")}</p>}
         </div>
         <div className="form-inputs">
-          <label className="form-label">Message</label>
+          <label className="form-label">{t("EmailFormMessageLabel.1")}</label>
           <input
             className="form-textarea"
             type="text"
             name="emailText"
-            placeholder="Enter your message"
+            placeholder={t("EmailFormMessagePlaceholder.1")}
             value={values.emailText}
             onChange={handleChange}
           />
-          {errors.emailText && <p>{errors.emailText}</p>}
+          {/* {errors.emailText && <p>{errors.emailText}</p>} */}
+          {/* {errors.emailText && <p>{errors.emailText}</p>} */}
+          {/* {errors.emailText && <p>{t("EmailFormMessageValidation.1")}</p>} */}
+          {errors.emailText && <p>{t("EmailFormMessageValidation.1")}</p>}
         </div>
         <button className="form-input-btn" type="submit">
-          Send
+          {t("EmailFormBtn.1")}
         </button>
       </form>
     </div>

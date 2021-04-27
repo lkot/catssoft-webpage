@@ -13,12 +13,23 @@ import {
   ArrowRight,
 } from "./HeroElements";
 
+import "../../i18n";
+import { useTranslation } from "react-i18next";
+
 const HeroSection = () => {
   const [hover, setHover] = useState(false);
 
   const onHover = () => {
     setHover(!hover);
   };
+
+  // Language change functions.
+  // const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
+
+  // function handleLangChange(lang) {
+  //   i18n.changeLanguage(lang);
+  // }
 
   return (
     <>
@@ -33,9 +44,9 @@ const HeroSection = () => {
           ></VideoBackground>
         </HeroBackground>
         <HeroContent>
-          <HeroH1>Catlike agile IT solutions.</HeroH1>
+          <HeroH1>{t("HeroSectionH1.1")}</HeroH1>
           {/* <HeroH1>IT solutions with catlike agility.</HeroH1> */}
-          <HeroP>Want to know more? Contact us now!</HeroP>
+          <HeroP>{t("HeroSectionP1.1")}</HeroP>
           <HeroBtnWrapper>
             {/* When the cursor will go onto(and off) the button it will
               trigger the onHover function which changes the state. */}
@@ -55,7 +66,8 @@ const HeroSection = () => {
               //   dark="true"
             >
               {/* On button's hover, the arrow icon will change its shape. */}
-              Contact Us {hover ? <ArrowForward /> : <ArrowRight />}
+              {t("ContactHeroBtn.1")}
+              {hover ? <ArrowForward /> : <ArrowRight />}
             </Button>
           </HeroBtnWrapper>
         </HeroContent>

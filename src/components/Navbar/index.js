@@ -2,7 +2,6 @@
 import React, { useState, useEffect } from "react";
 import { IconContext } from "react-icons/lib";
 import { animateScroll as scroll } from "react-scroll";
-
 import { FaBars } from "react-icons/fa";
 import {
   Nav,
@@ -15,7 +14,13 @@ import {
   NavBtn,
   NavBtnLink,
   CatIcon,
+  FlagContainer,
+  FlagImg,
 } from "./NavbarElements";
+import "../../i18n";
+import { useTranslation } from "react-i18next";
+import PolishFlag from "../../images/polish-flag.png";
+import EnglishFlag from "../../images/english-flag.png";
 
 //Passing the toggle value.
 const Navbar = ({ toggle }) => {
@@ -40,6 +45,13 @@ const Navbar = ({ toggle }) => {
   const toggleHome = () => {
     scroll.scrollToTop();
   };
+
+  // Language change functions.
+  const { t, i18n } = useTranslation();
+
+  function handleLangChange(lang) {
+    i18n.changeLanguage(lang);
+  }
 
   return (
     <>
@@ -69,7 +81,7 @@ const Navbar = ({ toggle }) => {
                   //Navbar's margin is set on -80px.
                   offset={-80}
                 >
-                  About Us
+                  {t("AboutUsNavbar.1")}
                 </NavLinks>
               </NavItem>
               <NavItem>
@@ -81,7 +93,7 @@ const Navbar = ({ toggle }) => {
                   exact="true"
                   offset={-80}
                 >
-                  Services
+                  {t("ServicesNavbar.1")}
                 </NavLinks>
               </NavItem>
               <NavItem>
@@ -93,7 +105,7 @@ const Navbar = ({ toggle }) => {
                   exact="true"
                   offset={-80}
                 >
-                  Clients
+                  {t("ClientsNavbar.1")}
                 </NavLinks>
               </NavItem>
               <NavItem>
@@ -105,20 +117,32 @@ const Navbar = ({ toggle }) => {
                   exact="true"
                   offset={-70}
                 >
-                  Contact
+                  {t("ContactNavbar.1")}
                 </NavLinks>
               </NavItem>
-              {/* <NavItem>
-              <NavLinks to="newsfeed">Newsfeed</NavLinks>
-            </NavItem> */}
-
-              {/* Contact moge zrobic modalem !!! */}
             </NavMenu>
-            {/* It is a div wrapping a Button */}
             {/* <NavBtn>
               <NavBtnLink to="/signin">Contact Us</NavBtnLink>
             </NavBtn> */}
           </NavbarContainer>
+          <FlagContainer>
+            <FlagImg
+              src={PolishFlag}
+              onClick={() => handleLangChange("pl")}
+              alt="polish flag"
+            />
+            <FlagImg
+              src={EnglishFlag}
+              onClick={() => handleLangChange("en")}
+              alt="english flag"
+            />
+          </FlagContainer>
+          {/* <FlagItem onClick={() => handleLangChange("en")}>
+              <img src={EnglishFlag} alt="polish flag" width="35%" />
+            </FlagItem>
+            <FlagItem onClick={() => handleLangChange("pl")}>
+              <img src={PolishFlag} alt="polish flag" width="35%" />
+            </FlagItem> */}
         </Nav>
       </IconContext.Provider>
     </>

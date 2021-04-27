@@ -9,10 +9,14 @@ import {
 } from "./FooterElements";
 import { animateScroll as scroll } from "react-scroll";
 
+import { useTranslation } from "react-i18next";
+
 const Footer = () => {
   const toggleHome = () => {
     scroll.scrollToTop();
   };
+
+  const { t } = useTranslation();
 
   return (
     <FooterContainer>
@@ -22,7 +26,7 @@ const Footer = () => {
             <CatssoftCatIcon /> catsSoft.
           </SocialLogo>
           <WebsiteRights>
-            catsSoft © {new Date().getFullYear()} All rights reserved.
+            catsSoft © {new Date().getFullYear()} {t("FooterCopyrights.1")}
           </WebsiteRights>
         </SocialMediaWrap>
       </SocialMedia>

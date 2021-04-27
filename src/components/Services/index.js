@@ -11,40 +11,40 @@ import {
   ServicesH2,
   ServicesP,
   ServicesBtnWrap,
+  ServicesBackground,
+  ImgBackground,
 } from "./ServicesElements";
-import { Button } from "../ButtonElements";
+// import { Button } from "../ButtonElements";
+// import ImgageBackground from "../../images/img-code.svg";
+import { useTranslation } from "react-i18next";
 
 const Services = () => {
+  const { t } = useTranslation();
+
   return (
     <ServicesContainer id="services">
-      <ServicesH1>catsSoft Services.</ServicesH1>
+      {/* <ServicesBackground>
+        <ImgBackground src={ImgageBackground}></ImgBackground>
+      </ServicesBackground> */}
+      <ServicesH1>{t("ServicesH1.1")}</ServicesH1>
       <ServicesWrapper>
         <ServicesCard>
           {/* Good trick to import images below - this icon will be the 'hyperlink'. */}
           <ServicesIcon src={Icon3} />
-          <ServicesH2>Web Development.</ServicesH2>
-          <ServicesP>
-            Our specialists develop high-quality software solutions with catlike
-            agility.
-          </ServicesP>
+          <ServicesH2>{t("ServicesWebDevH2.1")}</ServicesH2>
+          <ServicesP>{t("ServicesWebDevP.1")}</ServicesP>
         </ServicesCard>
         <ServicesCard>
           {/* Good trick to import images below - this icon will be the 'hyperlink'. */}
           <ServicesIcon src={Icon1} />
-          <ServicesH2>IT Consulting.</ServicesH2>
-          <ServicesP>
-            We know from experience what your challenges are and how best to
-            deliver a full range of specialized IT services.
-          </ServicesP>
+          <ServicesH2>{t("ServicesITConsultingH2.1")}</ServicesH2>
+          <ServicesP>{t("ServicesITConsultingP.1")}</ServicesP>
         </ServicesCard>
         <ServicesCard>
           {/* Good trick to import images below - this icon will be the 'hyperlink'. */}
           <ServicesIcon src={Icon2} />
-          <ServicesH2>Database Development.</ServicesH2>
-          <ServicesP>
-            Our company is specializing in database development relying on solid
-            domain expertise.
-          </ServicesP>
+          <ServicesH2>{t("ServicesDatabaseDevH2.1")}</ServicesH2>
+          <ServicesP>{t("ServicesDatabaseDevP.1")}</ServicesP>
         </ServicesCard>
       </ServicesWrapper>
       {/* <ServicesBtnWrap>
