@@ -24,7 +24,8 @@ const Services = () => {
   return (
     <ServicesContainer id="services">
       {/* <ServicesBackground>
-        <ImgBackground src={ImgageBackground}></ImgBackground>
+        <ImgBackground src={ImageBackground}></ImgBackground>
+        <ImgBackground />
       </ServicesBackground> */}
       <ServicesH1>{t("ServicesH1.1")}</ServicesH1>
       <ServicesWrapper>

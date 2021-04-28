@@ -15,7 +15,7 @@
 
 
     "HeroSectionH1": {
-        "1": "Rozwiązania IT zwinne niczym kot."
+        "1": "Rozwiązania IT z kocią zwinnością."
     },
     "HeroSectionP1": {
         "1": "Chcesz dowiedzieć się więcej?"
@@ -30,19 +30,19 @@
         "1": "O Nas"
     },
     "AboutHeadline":{
-        "1": "Rozwiązania zarówno dla rozwijających się, jak i dużych firm."
+        "1": "Oprogramowanie zarówno dla rozwijających się, jak i dużych firm."
     },
     "AboutDescription":{
         "1": "Zespół catsSoft projektuje i wdraża zarówno małe aplikacje, jak i wszechstronne rozproszone systemy opieki zdrowotnej."
     },
     "AboutBtn":{
-        "1": "Napisz do Nas"
+        "1": "Napisz do nas"
     },
 
 
 
     "ClientsTopLine":{
-        "1": "Klienci, którzy nam zaufali"
+        "1": "Nasi Klienci"
     },
     "ClientsHeadline":{
         "1": "Firmy, które zaufały naszym usługom."
@@ -61,14 +61,14 @@
         "1": "Nasze Usługi."
     },
     "ServicesWebDevH2":{
-        "1": "Rozwiązania Webowe."
+        "1": "Aplikacje Webowe."
     },
     "ServicesWebDevP":{
-        "1": "Nasi specjaliści opracowują wysokiej jakości rozwiązania programowe z kocią zwinnością."
+        "1": "Nasi specjaliści opracowują wysokiej jakości aplikacje webowe z kocią zwinnością."
     },
 
     "ServicesITConsultingH2":{
-        "1": "Konsulting IT."
+        "1": "IT Konsulting."
     },
     "ServicesITConsultingP":{
         "1": "Z doświadczenia wiemy, jakie są Twoje wyzwania i jak najlepiej świadczyć pełen zakres specjalistycznych usług IT."
@@ -78,7 +78,7 @@
         "1": "Rozwój Baz Danych."
     },
     "ServicesDatabaseDevP":{
-        "1": "Nasza firma specjalizuje się w tworzeniu baz danych, opierając się na solidnej wiedzy o domenach."
+        "1": "Nasza firma specjalizuje się w tworzeniu baz danych, opierając się na solidnej wiedzy."
     },
 
 
@@ -96,7 +96,7 @@
         "1": "Skontaktuj się z nami już dziś!"
     },
     "EmailFormTextH2":{
-        "1": "Jeśli już zdecydowałeś, że chcesz skorzystać z naszych usług - napisz do nas! Z przyjemnością odpowiemy na wszystkie Twoje pytania."
+        "1": "Jeśli chcesz skorzystać z naszych usług - napisz do nas! Z przyjemnością odpowiemy na wszystkie Twoje pytania."
     },
 
 
@@ -132,16 +132,16 @@
 
 
     "EmailFormNameValidation": {
-        "1": "IMIE JEST ZLE"
+        "1": "Wprowadzona nazwa jest niepoprawna"
     },
     "EmailFormEmailValidation": {
-        "1": "NAZWA EMAILA JEST ZLA"
+        "1": "Wprowadzony email jest niepoprawny"
     },
     "EmailFormSubjectValidation": {
-        "1": "TEMAT JEST ZLY"
+        "1": "Wprowadzony temat jest niepoprawny"
     },
     "EmailFormMessageValidation": {
-        "1": "TRESC WIADOMOSCI JEST ZLA"
+        "1": "Wprowadzona wiadomość jest niepoprawna"
     },
 
 

@@ -1,12 +1,18 @@
 import styled from "styled-components";
+import BackgroundImgCode from "../../images/img-operating-system.svg";
 
 export const ServicesContainer = styled.div`
+  /* background-image: url(${BackgroundImgCode}); */
+  /* background-position-y: 58vw; */
+  /* height: 100%; */
+  /* width: 100%; */
+
   height: 800px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: white;
+  background: #fff;
   /* background: #010606; */
 
   @media screen and (max-width: 768px) {
@@ -124,24 +130,25 @@ export const ServicesBtnWrap = styled.div`
 `;
 
 //Background image.
-export const ServicesBackground = styled.div`
-  /* background-image: url(img-code.svg); */
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-`;
+// export const ServicesBackground = styled.div`
+//   /* background-image: url(img-code.svg); */
+//   position: absolute;
+//   top: 0;
+//   right: 0;
+//   bottom: 0;
+//   left: 0;
+//   width: 100%;
+//   height: 100%;
+//   overflow: hidden;
+// `;
 
-export const ImgBackground = styled.video`
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-  object-fit: cover;
-  background: 232a34;
-  opacity: 70%;
-  /* filter: brightness(70%); */
-`;
+// export const ImgBackground = styled.div`
+//   background-image: url(${BackgroundImgCode});
+//   width: 100%;
+//   height: 100%;
+//   -o-object-fit: cover;
+//   object-fit: cover;
+//   background: 232a34;
+//   opacity: 70%;
+//   /* filter: brightness(70%); */
+// `;

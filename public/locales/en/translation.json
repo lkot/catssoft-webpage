@@ -15,7 +15,7 @@
 
 
     "HeroSectionH1": {
-        "1": "Catlike agile It solutions."
+        "1": "Catlike agile IT solutions."
     },
     "HeroSectionP1": {
         "1": "Want to know more? Contact us now!"
@@ -131,16 +131,16 @@
 
 
     "EmailFormNameValidation": {
-        "1": "Email NAME is bad"
+        "1": "Correct name is required"
     },
     "EmailFormEmailValidation": {
-        "1": "Email EMAIL NAME is bad"
+        "1": "Correct email is required"
     },
     "EmailFormSubjectValidation": {
-        "1": "Email SUBJECT is bad"
+        "1": "Correct subject is required"
     },
     "EmailFormMessageValidation": {
-        "1": "Email MESSAGE is bad"
+        "1": "Correct message is required"
     },
 
 

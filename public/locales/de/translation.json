@@ -1,0 +1,150 @@
+{
+    "AboutUsNavbar": {
+        "1": "Über Uns"
+    },
+    "ServicesNavbar": {
+        "1": "Services"
+    },
+    "ClientsNavbar": {
+        "1": "Kunden"
+    },
+    "ContactNavbar": {
+        "1": "Kontakt"
+    },
+
+
+
+    "HeroSectionH1": {
+        "1": "Agile IT-Lösungen."
+    },
+    "HeroSectionP1": {
+        "1": "Möchten Sie mehr wissen? Kontaktiere uns jetzt!"
+    },
+    "ContactHeroBtn": {
+        "1": "Kontaktiere uns"
+    },
+
+
+
+    "AboutTopLine":{
+        "1": "Über Uns"
+    },
+    "AboutHeadline":{
+        "1": "Lösungen für aufstrebende und große Unternehmen."
+    },
+    "AboutDescription":{
+        "1": "Das CatsSoft-Team entwirft und implementiert sowohl kleine Anwendungen als auch vielseitige verteilte Gesundheitssysteme."
+    },
+    "AboutBtn":{
+        "1": "Kontaktiere uns"
+    },
+
+
+
+    "ClientsTopLine":{
+        "1": "Unsere Kunden"
+    },
+    "ClientsHeadline":{
+        "1": "Unternehmen, die unseren Dienstleistungen vertrauten."
+    },
+    "ClientsDescription":{
+        "1": "In den letzten Jahren haben wir es geschafft, Lösungen für eine Reihe von Kunden bereitzustellen. Die Zusammenarbeit mit polnischen und multinationalen Unternehmen hat uns geholfen, den bestmöglichen Service zu bieten. Wir bringen die Unternehmen zum Gedeihen und nutzen ihr Potenzial!"
+    },
+    "ClientsBtn":{
+        "1": "Mehr erfahren"
+    },
+
+
+
+    "ServicesH1": {
+        "1": "catsSoft Services."
+    },
+    "ServicesWebDevH2":{
+        "1": "Web-Entwicklung."
+    },
+    "ServicesWebDevP":{
+        "1": "Unsere Spezialisten entwickeln hochwertige Softwarelösungen mit katzenartiger Agilität."
+    },
+
+    "ServicesITConsultingH2":{
+        "1": "IT-Beratung."
+    },
+    "ServicesITConsultingP":{
+        "1": "Wir wissen aus Erfahrung, was Ihre Herausforderungen sind und wie Sie eine vollständige Palette spezialisierter IT-Services am besten bereitstellen können."
+    },
+
+    "ServicesDatabaseDevH2":{
+        "1": "Datenbank Entwicklung."
+    },
+    "ServicesDatabaseDevP":{
+        "1": "Unser Unternehmen ist auf die Entwicklung von Datenbanken spezialisiert, die auf soliden Fachkenntnissen basieren."
+    },
+
+
+
+    "ClientsSliderH1":{
+        "1": "catSoft Kunden."
+    },
+
+
+
+    "EmailFormH1": {
+        "1": "Kontakt."
+    },
+    "EmailFormH2":{
+        "1": "Kontaktieren Sie uns noch heute!"
+    },
+    "EmailFormTextH2":{
+        "1": "Wenn Sie bereits entschieden haben, dass Sie unsere Dienstleistungen in Anspruch nehmen möchten, schreiben Sie uns einfach! Gerne beantworten wir alle Ihre Fragen."
+    },
+
+
+    "EmailFormNameLabel": {
+        "1": "Name"
+    },
+    "EmailFormNamePlaceholder": {
+        "1": "Geben Sie deinen Namen"
+    },
+    "EmailFormEmailLabel": {
+        "1": "Email"
+    },
+    "EmailFormEmailPlaceholder": {
+        "1": "Geben Sie deinen email"
+    },    
+    "EmailFormSubjectLabel": {
+        "1": "Subject"
+    },
+    "EmailFormSubjectPlaceholder": {
+        "1": "Geben Sie den Betreff"
+    },
+    "EmailFormMessageLabel": {
+        "1": "Nachricht"
+    },
+    "EmailFormMessagePlaceholder": {
+        "1": "Geben Sie den Nachricht"
+    },
+
+    "EmailFormBtn": {
+        "1": "Senden"
+    },
+
+
+
+    "EmailFormNameValidation": {
+        "1": "Der richtige Name ist erforderlich"
+    },
+    "EmailFormEmailValidation": {
+        "1": "Eine korrekte E-Mail-Adresse ist erforderlich"
+    },
+    "EmailFormSubjectValidation": {
+        "1": "Das richtige Thema ist erforderlich"
+    },
+    "EmailFormMessageValidation": {
+        "1": "Die richtige Nachricht ist erforderlich"
+    },
+
+
+    "FooterCopyrights": {
+        "1": "Alle Rechte vorbehalten."
+    }
+}

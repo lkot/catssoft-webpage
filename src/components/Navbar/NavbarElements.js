@@ -165,7 +165,7 @@ export const FlagContainer = styled.div`
 export const FlagImg = styled.img`
   margin-right: 4px;
 
-  height: 15%;
+  height: 20%;
   width: 15%;
   cursor: pointer;
 
