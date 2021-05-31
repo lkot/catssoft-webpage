@@ -6,7 +6,8 @@ export const HeroContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 30px;
+  /* padding: 0 30px; */
+  padding-bottom: 100px;
   height: 800px;
   position: relative;
   z-index: 1;
@@ -48,6 +49,16 @@ export const VideoBackground = styled.video`
   object-fit: cover;
   background: 232a34;
   filter: brightness(70%);
+`;
+
+export const ImgBackground = styled.img`
+  width: 45%;
+  height: 45%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  filter: brightness(100%);
+  /* margin-bottom: 22rem; */
+  z-index: 2;
 `;
 
 export const HeroContent = styled.div`

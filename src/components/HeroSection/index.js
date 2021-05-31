@@ -11,7 +11,10 @@ import {
   HeroBtnWrapper,
   ArrowForward,
   ArrowRight,
+  ImgBackground,
 } from "./HeroElements";
+// import ImgWelcomeCats from "../../images/undraw_working_late.svg";
+import ImgWelcomeCats from "../../images/undraw_Code_typing.svg";
 
 import "../../i18n";
 import { useTranslation } from "react-i18next";
@@ -44,6 +47,7 @@ const HeroSection = () => {
           ></VideoBackground>
         </HeroBackground>
         <HeroContent>
+          <ImgBackground src={ImgWelcomeCats} alt="welcome-cats" />
           <HeroH1>{t("HeroSectionH1.1")}</HeroH1>
           {/* <HeroH1>IT solutions with catlike agility.</HeroH1> */}
           <HeroP>{t("HeroSectionP1.1")}</HeroP>

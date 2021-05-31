@@ -18,9 +18,14 @@ export const Nav = styled.nav`
   position: sticky;
   top: 0;
   z-index: 10;
+  transition: 0.3s ease-in-out;
 
   @media screen and (max-width: 960px) {
     transition: 0.8s all ease;
+  }
+
+  @media screen and (max-width: 768px), screen and (max-height: 480px) {
+    z-index: 2;
   }
 `;
 
@@ -173,5 +178,12 @@ export const FlagImg = styled.img`
     transform: scale(1.2);
     transition: all 0.2s ease-in-out;
     cursor: pointer;
+  }
+
+  @media screen and (min-width: 400px) {
+    /* display: none; */
+  }
+  @media screen and (max-width: 400px) {
+    display: none;
   }
 `;

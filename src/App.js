@@ -11,7 +11,7 @@ import { Translator, Translate } from "react-auto-translate";
 function App() {
   return (
     <Router>
-      {/* Utilizing React Router and pass actual routes to the Switch.*/}
+      {/* Utilizing React Router and passing actual routes to the Switch.*/}
       <Switch>
         <Route path="/" component={Home} exact />
         <Route path="/signin" component={SigninPage} exact />

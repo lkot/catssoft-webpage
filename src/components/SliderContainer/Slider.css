@@ -37,11 +37,14 @@
   .slide{
   opacity: 0;
   transition-duration: 1s ease;
-  
+  /* width: 50vw !important;
+  height: 50vh !important; */
   }
   
   .slide-active{
     opacity: 1;
     transition-duration: 3s;
     transform: scale(1.01);
+    /* width: 50vw !important; */
+    /* height: 50vh !important; */
   }

@@ -54,7 +54,8 @@ export const ServicesCard = styled.div`
   border-radius: 10px;
   max-height: 300px;
   padding: 10px;
-  box-shadow: 0 4px 3px rgba(0, 0, 0, 0.4);
+  /* box-shadow: 0 4px 3px rgba(0, 0, 0, 0.4); */
+  box-shadow: 0 4px 20px #1fb8ff;
   transition: all 0.2s ease-in-out;
   margin-bottom: 160px;
 
@@ -91,9 +92,21 @@ export const ServicesIcon = styled.img`
 export const ServicesH1 = styled.h1`
   font-size: 3rem;
   /* color: #1fb8ff; */
-  color: black;
+  color: #1fb8ff;
   margin-bottom: 96px;
   text-align: center;
+  /* box-shadow: 0 4px 30px #1fb8ff; */
+  /* background-color: #1fb8ff; */
+  /* border-radius: 5px; */
+  /* opacity: 0.5; */
+  /* border-bottom: 0 4px 30px #1fb8ff; */
+  /* border-bottom: 5px solid #1fb8ff; */
+  -webkit-box-shadow: 0px 20px 20px -20px #1fb8ff;
+  -moz-box-shadow: 0px 20px 20px -20px #1fb8ff;
+  box-shadow: 0px 20px 20px -20px #1fb8ff;
+  /* border-bottom-color: transparent; */
+  /* border-bottom-width: thick;
+  border-top-width: thick; */
 
   @media screen and (max-width: 1000px) {
     margin-top: 20px;

@@ -41,9 +41,8 @@ export const SlideRightArrow = styled(FaArrowAltCircleRight)`
   position: absolute;
   top: 50%;
   right: 32px;
-  font-size: 3rem;
   color: #1fb8ff;
-  z-index: 10;
+  /* z-index: 10; */
   cursor: pointer;
   user-select: none;
   color: black;
@@ -53,6 +52,11 @@ export const SlideRightArrow = styled(FaArrowAltCircleRight)`
     transition: all 0.2s ease-in-out;
     cursor: pointer;
   }
+
+  @media screen and (max-width: 768px) {
+    width: 30px;
+    height: 30px;
+  }
 `;
 
 export const SlideLeftArrow = styled(FaArrowAltCircleLeft)`
@@ -61,15 +65,19 @@ export const SlideLeftArrow = styled(FaArrowAltCircleLeft)`
   right: 32px;
   font-size: 3rem;
   color: #1fb8ff;
-  z-index: 10;
+  /* z-index: 10; */
   cursor: pointer;
   user-select: none;
-  color: black;
 
   &:hover {
     transform: scale(1.05);
     transition: all 0.2s ease-in-out;
     cursor: pointer;
+  }
+
+  @media screen and (max-width: 768px) {
+    width: 30px;
+    height: 30px;
   }
 `;
 
@@ -96,24 +104,37 @@ export const SlideImg = styled.img`
   }
 `;
 
-export const SlideItemNonactive = styled.img`
-  opacity: 0;
-  transition-duration: 1s ease;
-`;
+// At this moment using styles from Slider.css
 
-export const SlideItemActive = styled.img`
-  opacity: 1;
-  transition-duration: 3s;
-  transform: scale(1.1);
-`;
+// export const SlideItemNonactive = styled.img`
+//   opacity: 0;
+//   width: 75vw !important;
+//   height: 75vh !important;
+//   transition-duration: 1s ease;
+// `;
+
+// export const SlideItemActive = styled.img`
+//   opacity: 1;
+//   width: 75vw !important;
+//   height: 75vh !important;
+//   transition-duration: 3s;
+//   transform: scale(1.1);
+// `;
 
 export const SliderH1 = styled.h1`
   font-size: 3rem;
-  /* color: #1fb8ff; */
-  color: black;
-
+  color: #1fb8ff;
   text-align: center;
+  /* border-bottom-style: none; */
+  /* box-shadow: 0 20px 20px -15px #1fb8ff; */
+  /* border-bottom: solid; */
 
+  /* border-bottom-width: thick;
+  border-bottom-color: #1fb8ff; */
+  /* box-shadow: 0 0 1em #1fb8ff; */
+  /* -webkit-box-shadow: 0px 20px 20px -20px #1fb8ff;
+  -moz-box-shadow: 0px 20px 20px -20px #1fb8ff;
+  box-shadow: 0 0 20px 5px #1fb8ff; */
   @media screen and (max-width: 1000px) {
     margin-top: 20px;
     margin-bottom: 20px;

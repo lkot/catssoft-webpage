@@ -30,4 +30,10 @@ export const Button = styled(Link)`
     background: ${({ primary }) => (primary ? "#fff" : "#1FB8FF")};
     color: ${({ dark }) => (dark ? "#010606" : "#010606")};
   }
+
+  @media screen and (max-width: 768px) {
+    font-size: 12px;
+
+    /* display: none; */
+  }
 `;

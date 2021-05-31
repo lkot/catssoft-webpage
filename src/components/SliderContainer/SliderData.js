@@ -22,9 +22,9 @@ export const SliderData = [
     image:
       "https://www.drugdeliverybusiness.com/wp-content/uploads/2017/06/ortho-clinical-diagnostics-large.png",
   },
-  {
-    image: "https://allmed.com.pl/wp-content/uploads/2019/06/allmed-logo.png",
-  },
+  // {
+  //   image: "https://allmed.com.pl/wp-content/uploads/2019/06/allmed-logo.png",
+  // },
   {
     image: "https://medspro.pl/wp-content/uploads/2021/01/m_logo_21.png",
   },

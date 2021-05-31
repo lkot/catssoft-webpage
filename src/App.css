@@ -14,10 +14,13 @@
   top: 50%;
   right: 32px;
   font-size: 3rem;
-  color:#000;
-  z-index: 100;
+  color:#1fb8ff !important;
+  /* z-index: 100; */
   cursor: pointer;
   user-select: none;
+  /* box-shadow: 0 0 20px 5px #1fb8ff;
+  border-radius: 50%;
+  border: none !important; */
 }
 
 .left-arrow{
@@ -25,8 +28,11 @@
   top: 50%;
   left: 32px;
   font-size: 3rem;
-  color:#000;
-  z-index: 100;
+  color:#1fb8ff !important;
+  /* box-shadow: 0 0 20px 5px #1fb8ff;
+  border-radius: 50%;
+  border:0rem !important; */
+  /* z-index: 100; */
   cursor: pointer;
   user-select: none;
 }

@@ -19,8 +19,6 @@ import {
 } from "./NavbarElements";
 import "../../i18n";
 import { useTranslation } from "react-i18next";
-// import PolishFlag from "../../images/polish-flag.png";
-// import EnglishFlag from "../../images/english-flag.png";
 import PolishFlag from "../../images/img-circle-polish.png";
 import EnglishFlag from "../../images/img-circle-english.png";
 import GermanFlag from "../../images/img-circle-germany.png";
@@ -118,7 +116,7 @@ const Navbar = ({ toggle }) => {
                   duration={500}
                   spy={true}
                   exact="true"
-                  offset={-70}
+                  offset={-40}
                 >
                   {t("ContactNavbar.1")}
                 </NavLinks>

@@ -3,10 +3,9 @@ import { Link as LinkScroll } from "react-scroll";
 import { Link as LinkRouter } from "react-router-dom";
 import { FaTimes } from "react-icons/fa";
 
-export const SidebarContainer = styled.aside`
+export const SidebarContainer = styled.div`
   position: fixed;
   /* z-index: 100; // the maximum importance index - 999 means it always will be there */
-
   z-index: 999;
   width: 100%;
   height: 100%;
@@ -24,6 +23,10 @@ export const SidebarContainer = styled.aside`
 
   /* It will make the sidebar slide down from the top. */
   top: ${({ isOpen }) => (isOpen ? "0" : "-100%")};
+
+  @media screen and (max-width: 768px), screen and (max-height: 200px) {
+    z-index: 3;
+  }
 `;
 
 export const CloseIcon = styled(FaTimes)`
@@ -55,7 +58,7 @@ export const SidebarMenu = styled.ul`
   grid-template-rows: repeat(6, 80px);
   text-align: center;
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 768px) {
     grid-template-rows: repeat(6, 60px);
   }
 `;
@@ -75,6 +78,11 @@ export const SidebarLink = styled(LinkScroll)`
     color: #1fb8ff;
     transform: scale(1.1);
     transition: 0.2s ease-in-out;
+  }
+
+  @media screen and (max-width: 768px) {
+    font-size: 1rem;
+    /* display: none; */
   }
 `;
 
@@ -104,4 +112,40 @@ export const SidebarRoute = styled(LinkRouter)`
     color: black;
     transform: scale(1.02);
   }
+`;
+
+export const FlagContainer = styled.div`
+  display: flex;
+  text-align: center;
+  align-items: center;
+  list-style: none;
+  justify-content: center;
+`;
+
+export const FlagImg = styled.img`
+  margin-right: 4px;
+  height: 10%;
+  width: 10%;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.2);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+  }
+
+  /* @media screen and (max-width: 768px) {
+    height: 5%;
+    width: 5%;
+  } */
+
+  /* @media screen and (min-width: 768) {
+    width: auto;
+    height: auto;
+    display: none;
+  } */
+
+  /* @media screen and (min-width: 400px) {
+    display: none;
+  } */
 `;
