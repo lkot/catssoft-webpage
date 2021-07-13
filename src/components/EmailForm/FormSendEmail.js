@@ -68,6 +68,7 @@ const FormSendEmail = ({ submitForm }) => {
           <label className="form-label">{t("EmailFormMessageLabel.1")}</label>
           <input
             className="form-textarea"
+            // readOnly
             type="text"
             name="emailText"
             placeholder={t("EmailFormMessagePlaceholder.1")}

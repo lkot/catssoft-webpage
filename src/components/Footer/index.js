@@ -6,8 +6,11 @@ import {
   SocialLogo,
   WebsiteRights,
   CatssoftCatIcon,
+  SocialIconLink,
 } from "./FooterElements";
 import { animateScroll as scroll } from "react-scroll";
+import PolitykaPrywatnosciPDF from "./Polityka-Prywatnosci-catsSoft.pdf";
+import KlauzulaInformacyjnaPDF from "./Klauzula-Informacyjna-catsSoft.pdf";
 
 import { useTranslation } from "react-i18next";
 
@@ -28,6 +31,12 @@ const Footer = () => {
           <WebsiteRights>
             catsSoft © {new Date().getFullYear()} {t("FooterCopyrights.1")}
           </WebsiteRights>
+          <SocialIconLink href={PolitykaPrywatnosciPDF} target="_blank">
+            {t("PrivacyPolicy.1")}
+          </SocialIconLink>{" "}
+          <SocialIconLink href={KlauzulaInformacyjnaPDF} target="_blank">
+            {t("InformationClause.1")}
+          </SocialIconLink>
         </SocialMediaWrap>
       </SocialMedia>
     </FooterContainer>

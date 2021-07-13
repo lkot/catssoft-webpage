@@ -130,12 +130,20 @@ export const SocialIcons = styled.div`
 `;
 
 export const SocialIconLink = styled.a`
+  margin-bottom: 16px;
   color: #fff;
-  font-size: 24px;
+  text-decoration: none;
+  font-size: 14px;
+
+  &:hover {
+    color: #1fb8ff;
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+  }
 `;
 
 export const CatssoftCatIcon = styled(GiCat)`
   margin-right: 4px;
   font-size: 2rem;
-  /* color: white; */
 `;

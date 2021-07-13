@@ -145,6 +145,12 @@
 
 
     "FooterCopyrights": {
-        "1": "All rights reserved."
+        "1": "All rights reserved"
+    },
+    "PrivacyPolicy": {
+        "1": "Privacy Policy"
+    },
+    "InformationClause": {
+        "1": "Information Clause"
     }
 }

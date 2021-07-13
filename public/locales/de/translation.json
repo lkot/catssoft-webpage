@@ -145,6 +145,12 @@
 
 
     "FooterCopyrights": {
-        "1": "Alle Rechte vorbehalten."
+        "1": "Alle Rechte vorbehalten"
+    },
+    "PrivacyPolicy": {
+        "1": "Datenschutzerklärung"
+    },
+    "InformationClause": {
+        "1": "DSGVO-Informationsklausel"
     }
 }

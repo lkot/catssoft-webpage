@@ -147,6 +147,12 @@
 
 
     "FooterCopyrights": {
-        "1": "Wszystkie prawa zastrzeżone."
+        "1": "Wszystkie prawa zastrzeżone"
+    },
+    "PrivacyPolicy": {
+        "1": "Polityka Prywatności"
+    },
+    "InformationClause": {
+        "1": "Klauzula Informacyjna"
     }
 }
