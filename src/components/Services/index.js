@@ -35,9 +35,9 @@ const Services = () => {
 	return (
 		<ServicesContainer id='services'>
 			{/* <ServicesBackground>
-        <ImgBackground src={ImageBackground}></ImgBackground>
-        <ImgBackground />
-      </ServicesBackground> */}
+        	<ImgBackground src={ImageBackground}></ImgBackground>
+        	<ImgBackground />
+      		</ServicesBackground> */}
 			<ServicesH1 data-aos='fade-down'>{t('ServicesH1.1')}</ServicesH1>
 			<ServicesWrapper>
 				<ServicesCard data-aos='zoom-in'>
@@ -60,21 +60,21 @@ const Services = () => {
 				</ServicesCard>
 			</ServicesWrapper>
 			{/* <ServicesBtnWrap>
-        <Button
-          // to="home"
-          to="contactForm"
-          smooth={true}
-          duration={500}
-          spy={true}
-          exact="true"
-          offset={-80}
-          dark={false}
-          primary={false}
-          darkText={true}
-        >
-          Contact Us
-        </Button>
-      </ServicesBtnWrap> */}
+			<Button
+			// to="home"
+			to="contactForm"
+			smooth={true}
+			duration={500}
+			spy={true}
+			exact="true"
+			offset={-80}
+			dark={false}
+			primary={false}
+			darkText={true}
+			>
+			Contact Us
+			</Button>
+			</ServicesBtnWrap> */}
 		</ServicesContainer>
 	);
 };

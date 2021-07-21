@@ -5,7 +5,6 @@ import { FaTimes } from "react-icons/fa";
 
 export const SidebarContainer = styled.div`
   position: fixed;
-  /* z-index: 100; // the maximum importance index - 999 means it always will be there */
   z-index: 999;
   width: 100%;
   height: 100%;
@@ -82,7 +81,6 @@ export const SidebarLink = styled(LinkScroll)`
 
   @media screen and (max-width: 768px) {
     font-size: 1rem;
-    /* display: none; */
   }
 `;
 

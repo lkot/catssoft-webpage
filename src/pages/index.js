@@ -12,8 +12,6 @@ import ImageSlider from "../components/SliderContainer";
 
 import "../App.css";
 import "../i18n";
-import Hello from "../Hello";
-import ThankYou from "../ThankYou";
 import LanguageSelector from "../LanguageSelector";
 import { useTranslation } from "react-i18next";
 
@@ -57,9 +55,7 @@ const Home = () => {
         <button onClick={() => handleClick("en")}>English</button>
         <button onClick={() => handleClick("pl")}>Polish</button>
       </nav> */}
-        {/* <p>{t("Thanks.1")}</p> */}
-        {/* <Hello />
-      <ThankYou /> */}
+
         {/* Passing data to the InfoSection as a homeObjNumber. */}
         <InfoSection {...homeObjOne} />
         <Services />

@@ -1,7 +1,7 @@
 //Reusable InfoSection used in all of the 'pages'.
 
 import React, { Suspense, useEffect } from 'react';
-import { Button } from '../ButtonElements';
+import { Button } from '../Buttons/ButtonElements';
 import {
 	InfoContainer,
 	InfoWrapper,
@@ -82,9 +82,9 @@ const InfoSection = ({
 									</Subtitle>
 									<BtnWrap>
 										{/* Using React Scroll properties (smooth, etc.) 
-                  For instance offset wth -80 value will trigger
-                  the hovering Navbars pages from the bottom
-                  when you scroll down to its section*/}
+                  						For instance offset wth -80 value will trigger
+                  						the hovering Navbars pages from the bottom
+                  						when you scroll down to its section*/}
 										<Button
 											to={showClients ? 'clientsSlider' : 'contactForm'}
 											smooth={true}

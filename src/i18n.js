@@ -18,7 +18,7 @@ i18n
       escapeValue: false, // not needed for react!!
     },
 
-    // react i18next special options (optio nal)
+    // react i18next special options (optional)
     // override if needed - omit if ok with defaults
     /*
     react: {

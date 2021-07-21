@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Video from '../../videos/catssoft-background-vid-blue.mp4';
-import { Button } from '../ButtonElements';
+import { Button } from '../Buttons/ButtonElements';
 import {
 	HeroContainer,
 	HeroBackground,

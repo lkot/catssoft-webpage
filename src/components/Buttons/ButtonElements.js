@@ -33,7 +33,5 @@ export const Button = styled(Link)`
 
   @media screen and (max-width: 768px) {
     font-size: 12px;
-
-    /* display: none; */
   }
 `;

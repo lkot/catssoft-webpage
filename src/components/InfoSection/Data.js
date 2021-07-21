@@ -49,7 +49,6 @@ export const homeObjTwo = {
   topLine: "Our clients",
   headline: "Companies who trusted our services.",
   description:
-    // "Throughtout years we've managed to provide solutions to number of firms. Co-operating with Polish and multinational firms helped us to deliver best solutions possible and the companies to thrive.",
     "Throughtout years we've managed to provide solutions to number of clients. Co-operating with Polish and multinational firms helped us to deliver the best services possible. We make the companies thrive & embrace their potential!",
   buttonLabel: "Find out more",
   imgStart: true,
