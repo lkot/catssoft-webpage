@@ -65,10 +65,22 @@ const Home = () => {
 				<Form />
 				<Footer />
 				<CookieConsent
-					style={{ background: 'black' }}
-					buttonStyle={{ color: '#000', backgroundColor: '#1fb8ff', fontSize: '13px', borderRadius: '8px' }}
+					style={{
+						background: 'black',
+						width: '50%',
+						borderRadius: '8px',
+						transform: 'translate(50%)',
+						marginBottom: '16px',
+						opacity: '0.75',
+					}}
+					buttonStyle={{
+						color: '#000',
+						backgroundColor: '#1fb8ff',
+						fontSize: '13px',
+						borderRadius: '8px',
+					}}
 				>
-					This website uses cookies.
+					This website uses cookies. Click the button to accept.
 				</CookieConsent>
 				{/* </Translator> */}
 			</Suspense>
