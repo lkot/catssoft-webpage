@@ -70,17 +70,18 @@ const Home = () => {
 						width: '50%',
 						borderRadius: '8px',
 						transform: 'translate(50%)',
-						marginBottom: '16px',
+						marginBottom: '3.6em',
+						fontSize: '12px',
 						opacity: '0.75',
 					}}
 					buttonStyle={{
 						color: '#000',
 						backgroundColor: '#1fb8ff',
-						fontSize: '13px',
 						borderRadius: '8px',
+						fontSize: '12px',
 					}}
 				>
-					This website uses cookies. Click the button to accept.
+					This website uses cookies.
 				</CookieConsent>
 				{/* </Translator> */}
 			</Suspense>
