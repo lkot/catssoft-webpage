@@ -1,6 +1,6 @@
 export const SliderData = [
   {
-    image: "https://www.fresenius.com/images/Fresenius_Facebook_Logo.gif",
+    image: "https://www.fresenius-kabi.com/images/Fresenius-Kabi-Sharing.jpg",
   },
   {
     image:
